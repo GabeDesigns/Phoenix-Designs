@@ -1,0 +1,185 @@
+body
+{
+  font: 15px/1.5;
+  font-family: 'Dosis', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Global */
+.container
+{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul
+{
+  margin: 0;
+  padding: 0;
+}
+
+.button_1
+{
+  height: 21px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+}
+
+.dark
+{
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Header **/
+header
+{
+  background: #C0C0C0;
+  color: #FBFCFC;
+  padding-top: 20px;
+  min-height: 70px;
+  border-bottom: #ff4500 4px solid;
+}
+
+header a
+{
+  color: #2f4f4f;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+header li
+{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding
+{
+  float: left;
+}
+
+header #branding h1
+{
+  margin: 0;
+}
+
+header nav
+{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a
+{
+  color: #C0392B;
+  font-weight: bolder;
+}
+
+header a:hover
+{
+  color: #273746;
+  font-weight: bold;
+}
+
+/* Showcase */
+#showcase
+{
+  min-width: 100%;
+  min-height: 10%;
+  background: url('./showcase.jpeg') no-repeat 0 -100px;
+  text-align: center;
+  color: #FBFCFC;
+}
+
+#showcase h1
+{
+  margin-top: 75px;
+  font-size: 45px;
+  margin-bottom: 12px;
+}
+
+#showcase p
+{
+  font-size: 20px;
+}
+
+#newsletter
+{
+  padding: 0px;
+  background-color: #C0C0C0;
+
+}
+#newsletter h1
+{
+    float: left;
+}
+#newsletter form
+{
+  float: right;
+  margin-top: 22px;
+}
+
+#newsletter input[type = "email"]
+{
+  padding: 4px;
+  height: 25px;
+  width: 200px;
+}
+
+#boxes
+{
+  margin-top: 20px;
+}
+
+#boxes .box
+{
+  float: left;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+}
+
+#boxes .box img
+{
+  width: 100%;
+
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:25%;
+  margin-top: 10px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width: 65%;
+
+}
+
+footer
+{
+  padding: 10px;
+  margin-top: 80px;
+  color: #ffffff;
+  background-color: #C0C0C0;
+  text-align: center;
+  border-top:#ff4500 4px solid;
+}
+
+
+}
